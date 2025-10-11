@@ -1,22 +1,8 @@
 import { Link } from "@tanstack/react-router";
 import { Button } from "../ui/button";
+import { Links } from "./Links";
 
 const NavbarLarge = () => {
-	const Links: Array<{ name: string; link: string }> = [
-		{
-			name: "Home",
-			link: "/",
-		},
-		{
-			name: "About",
-			link: "/about",
-		},
-		{
-			name: "Rooms",
-			link: "/rooms",
-		},
-	];
-
 	return (
 		<header className="navbar">
 			<h4 className="text-xl font-bold">
