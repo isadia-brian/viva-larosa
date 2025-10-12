@@ -20,7 +20,7 @@ const NavbarLarge = () => {
 				))}
 			</nav>
 			<div className=" flex items-center justify-end">
-				<Button className="px-6 py-2 text-sm font-semibold bg-[#D4A574] text-white hover:bg-[#8B7355] transition-all duration-200 rounded-none">
+				<Button className="px-6 py-2 text-sm font-semibold bg-primary hover:bg-[#8B7355] transition-all duration-200 rounded-none">
 					Book Now
 				</Button>
 			</div>
