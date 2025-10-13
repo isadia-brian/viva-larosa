@@ -9,6 +9,7 @@ const AboutSection = () => {
 					Discover Our Journey
 				</h3>
 			</div>
+			<div></div>
 		</div>
 	);
 };
