@@ -18,3 +18,8 @@ SECURITY_ANALYSIS_TODO.md
 GEMINI.md
 DRAFT_SECURITY_REPORT.md
 design.json
+
+# Playwright
+test-results/
+playwright-report/
+playwright/.cache/
