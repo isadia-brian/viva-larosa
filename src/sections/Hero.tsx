@@ -1,11 +1,15 @@
+import { Image } from "@unpic/react";
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
 	return (
 		<div className="hero-container">
-			<img
+			<Image
 				src="/images/hero.png"
 				alt="hero-image"
+				layout="fullWidth"
+				priority
+				background="auto"
 				className="absolute inset-0 object-cover h-full"
 			/>
 			{/* <div className="hero-overlay" /> */}
