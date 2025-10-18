@@ -13,7 +13,10 @@ const NavbarLarge = () => {
 					<Link
 						to={link}
 						key={name}
-						className="font-medium px-2 text-sm hover:text-[#D4A574] transition-colors"
+						className="px-2 text-sm hover:text-[#D4A574] transition-colors"
+						activeProps={{
+							className: "font-medium text-[#D4A574]",
+						}}
 					>
 						{name}
 					</Link>

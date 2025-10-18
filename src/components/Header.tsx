@@ -17,6 +17,7 @@ export default function Header() {
 		Record<string, boolean>
 	>({});
 
+	const user: string = "Brian";
 	return (
 		<>
 			<header className="p-4 flex items-center bg-gray-800 text-white shadow-lg">
