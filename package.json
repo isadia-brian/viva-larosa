@@ -8,10 +8,6 @@
     "serve": "vite preview",
     "test": "vitest run",
     "test:unit": "vitest run",
-    "test:e2e": "playwright test",
-    "test:e2e:ui": "playwright test --ui",
-    "test:e2e:debug": "playwright test --debug",
-    "test:e2e:report": "playwright show-report",
     "lint": "biome lint",
     "format": "biome format",
     "check": "biome check"
@@ -44,7 +40,6 @@
   },
   "devDependencies": {
     "@biomejs/biome": "2.2.5",
-    "@playwright/test": "^1.56.0",
     "@tanstack/eslint-config": "^0.3.0",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/react": "^16.2.0",
