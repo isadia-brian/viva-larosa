@@ -1,0 +1,68 @@
+{
+  "Buttons": {
+    "large": {
+      "dimensions": {
+        "width": "200px",
+        "height": "48px"
+      },
+      "padding": {
+        "horizontal": "24px",
+        "vertical": "16px"
+      },
+      "text": {
+        "fontSize": "16px",
+        "lineHeight": "16px",
+        "letterSpacing": "0px"
+      },
+      "whereToUse": ["CTA sections", "Headers", "Promotional areas"]
+    },
+    "medium": {
+      "dimensions": {
+        "width": "160px",
+        "height": "40px"
+      },
+      "padding": {
+        "horizontal": "20px",
+        "vertical": "12px"
+      },
+      "text": {
+        "fontSize": "14px",
+        "lineHeight": "16px",
+        "letterSpacing": "0px"
+      },
+      "whereToUse": ["Forms", "Primary actions", "Feature sections"]
+    },
+    "default": {
+      "dimensions": {
+        "width": "120px",
+        "height": "32px"
+      },
+      "padding": {
+        "horizontal": "16px",
+        "vertical": "8px"
+      },
+      "text": {
+        "fontSize": "14px",
+        "lineHeight": "16px",
+        "letterSpacing": "0px"
+      },
+      "whereToUse": "General purpose buttons"
+    },
+    "small": {
+      "dimensions": {
+        "width": "80px",
+        "height": "24px"
+      },
+      "padding": {
+        "horizontal": "12px",
+        "vertical": "4px"
+      },
+      "text": {
+        "fontSize": "12px",
+        "lineHeight": "16px",
+        "letterSpacing": "0px"
+      },
+      "whereToUse": ["Navigation", "Filters", "Sidebars"]
+    }
+  }
+}
