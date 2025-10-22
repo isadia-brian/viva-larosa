@@ -17,13 +17,11 @@ const Hero = () => {
 			<div className="absolute inset-0 bg-gradient-to-b from-black/[.7] via-black/[.2] to-transparent"></div>
 			<div className="absolute inset-0 bg-gradient-to-t from-black/[.7] via-black/[.2] to-transparent"></div>
 			<div className="hero-content">
-				<Badge variant={"default"} className="font-medium">
-					Welcome to Paradise
-				</Badge>
+				<p className="text-white mb-1">Welcome to paradise</p>
 				<h1 className="hero-title">
 					Your Private
 					<br />
-					Sanctuary Awaits
+					<span className="font-headings font-normal">Sanctuary</span> Awaits
 					<br />
 				</h1>
 				<p className="hero-subtitle">
@@ -31,7 +29,7 @@ const Hero = () => {
 					villas, where every detail is crafted for your perfect escape.
 				</p>
 				<Button
-					className="mt-8 px-6 py-4  w-fit font-semibold bg-primary hover:bg-[#8B7355] transition-all duration-200 rounded-none"
+					className="px-6 py-4  w-fit font-semibold bg-primary hover:bg-[#8B7355] transition-all duration-200 rounded-none"
 					size={"lg"}
 				>
 					Explore Our Villas
