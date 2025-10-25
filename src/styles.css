@@ -95,6 +95,7 @@
   --font-headings: 'Ciguatera', sans-serif;
   --font-logo: 'Rostave', sans-serif;
   --font-poppins: 'Poppins', sans-serif;
+  --color-greenish: var(--border-green);
 }
 
 :root {
@@ -122,6 +123,8 @@
   --brand-green: oklch(50% 0.03 120);
   --accent-green: oklch(80% 0.025 120);
   --ui-green: oklch(75% 0.015 130);
+
+  --border-green: oklch(0.4284 0.0253 140.82);
 
   --destructive: oklch(0.577 0.245 27.325);
   --border: oklch(0.42 0.04 250);
@@ -160,6 +163,7 @@
   --accent-green: oklch(80% 0.025 120);
   --ui-green: oklch(75% 0.015 130);
 
+  --border-green: oklch(0.4284 0.0253 140.82);
   /* Fallbacks */
   --background-hex: #d4d9d1;
   --primary-hex: #233115;
@@ -207,6 +211,9 @@ code {
   }
   .abs-center {
     @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
+  }
+  .section-center {
+    @apply py-10 max-w-[1128px] mx-auto;
   }
 }
 
