@@ -22,7 +22,7 @@ const FeaturesSection = () => {
 							</h4>
 						</div>
 						<div className="flex flex-col gap-8">
-							<p>
+							<p className="text-foreground/70 text-sm">
 								Your villa chef personalizes every menu, sourcing the best local
 								and global ingredients for memorable, flexible alfresco dining
 								experiences.
@@ -39,7 +39,7 @@ const FeaturesSection = () => {
 							</h4>
 						</div>
 						<div className="flex flex-col gap-8">
-							<p>
+							<p className="text-foreground/70 text-sm">
 								A highly trained staff anticipates your every preference, from
 								groceries to private transfers, so you can simply relax
 								together.{" "}
@@ -56,7 +56,7 @@ const FeaturesSection = () => {
 							</h4>
 						</div>
 						<div className="flex flex-col gap-8">
-							<p>
+							<p className="text-foreground/70 text-sm">
 								Step onto soft sand from your villa; enjoy exclusive, uncrowded
 								beach access for peaceful moments and endless ocean views.
 							</p>
@@ -72,7 +72,7 @@ const FeaturesSection = () => {
 							</h4>
 						</div>
 						<div className="flex flex-col gap-8">
-							<p>
+							<p className="text-foreground/70 text-sm">
 								Enjoy in-villa spa sessions by skilled therapists, offering
 								relaxing massages and rejuvenating treatments for ultimate
 								comfort and privacy.
@@ -89,7 +89,7 @@ const FeaturesSection = () => {
 							</h4>
 						</div>
 						<div className="flex flex-col gap-8">
-							<p>
+							<p className="text-foreground/70 text-sm">
 								Staff arrange custom excursions—sunset cruises, snorkeling, or
 								cultural tours—designed entirely around your interests and
 								preferred pace.
@@ -106,7 +106,7 @@ const FeaturesSection = () => {
 							</h4>
 						</div>
 						<div className="flex flex-col gap-8">
-							<p>
+							<p className="text-foreground/70 text-sm">
 								Arrive stress-free to a fully prepared villa, complete with
 								airport transfer, stocked pantry, and every comfort thoughtfully
 								arranged.

@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@fontsource/poppins": "^5.2.7",
+    "@radix-ui/react-avatar": "^1.1.10",
     "@radix-ui/react-slot": "^1.2.3",
     "@tailwindcss/postcss": "^4.1.14",
     "@tailwindcss/vite": "^4.0.6",
@@ -55,5 +56,6 @@
     "vite": "^7.1.7",
     "vitest": "^3.0.5",
     "web-vitals": "^5.1.0"
-  }
+  },
+  "packageManager": "pnpm@10.18.3+sha512.bbd16e6d7286fd7e01f6b3c0b3c932cda2965c06a908328f74663f10a9aea51f1129eea615134bf992831b009eabe167ecb7008b597f40ff9bc75946aadfb08d"
 }

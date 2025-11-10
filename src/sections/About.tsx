@@ -41,7 +41,7 @@ const AboutSection = () => {
 					<LinkWithIcon content="More About Us" href="#" />
 				</div>
 				<div className="row-span-2 col-start-3 row-start-4 leading-tight">
-					<p>
+					<p className="text-foreground/70 text-sm">
 						This is where discerning travelers come to truly unwind, where
 						families mark life's milestones in privacy, and where couples
 						discover the romance of having an entire paradise to themselves.
