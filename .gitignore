@@ -21,3 +21,4 @@ design.json
 .opencode/
 .gemini/
 docs
+\n# Added by Gemini\nbuild/\n*.log\n.env*
