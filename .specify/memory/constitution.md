@@ -1,13 +1,10 @@
 <!--
 Sync Impact Report:
-- Version change: 0.0.0 → 1.0.0
+- Version change: 1.0.0 → 1.1.0
 - Added sections:
-  - Core Principles
-  - Governance
+  - V. Dependency Management
 - Templates requiring updates:
   - ✅ .specify/templates/plan-template.md
-  - ✅ .specify/templates/spec-template.md
-  - ✅ .specify/templates/tasks-template.md
 -->
 # Vivalarosa Constitution
 
@@ -25,7 +22,10 @@ The user interface and experience shall remain consistent across the application
 ### IV. High-Performance by Default
 The application must be performant. Bundle sizes should be monitored, and code should be optimized for speed. Performance regressions are considered bugs and must be addressed with high priority.
 
+### V. Dependency Management
+`bun` is the default package manager. Before adding a new dependency, developers must verify it is not already listed in `package.json` to avoid duplication.
+
 ## Governance
 This Constitution supersedes all other practices. Amendments require documentation, approval, and a migration plan. All pull requests and reviews must verify compliance with these principles.
 
-**Version**: 1.0.0 | **Ratified**: 2025-11-15 | **Last Amended**: 2025-11-15
+**Version**: 1.1.0 | **Ratified**: 2025-11-15 | **Last Amended**: 2025-11-15

@@ -35,6 +35,7 @@
 - [ ] **II. Rigorous Testing Standards**: Does the plan include tasks for writing unit/integration tests for all new features?
 - [ ] **III. Consistent User Experience**: Does the plan prioritize the use of reusable components and alignment with the existing design system?
 - [ ] **IV. High-Performance by Default**: Does the plan include considerations for bundle size, performance optimization, and regression testing?
+- [ ] **V. Dependency Management**: Does the plan ensure that new dependencies are necessary and not duplicates?
 
 ## Project Structure
 
