@@ -1,8 +1,8 @@
 <!--
 Sync Impact Report:
-- Version change: 1.0.0 → 1.1.0
+- Version change: 1.1.0 → 1.2.0
 - Added sections:
-  - V. Dependency Management
+  - VI. Styling and Theming
 - Templates requiring updates:
   - ✅ .specify/templates/plan-template.md
 -->
@@ -25,7 +25,10 @@ The application must be performant. Bundle sizes should be monitored, and code s
 ### V. Dependency Management
 `bun` is the default package manager. Before adding a new dependency, developers must verify it is not already listed in `package.json` to avoid duplication.
 
+### VI. Styling and Theming
+Inline styling using Tailwind CSS is the preferred method for styling components. For conditional styling, the `cn` helper function located in `src/lib/utils.ts` must be used.
+
 ## Governance
 This Constitution supersedes all other practices. Amendments require documentation, approval, and a migration plan. All pull requests and reviews must verify compliance with these principles.
 
-**Version**: 1.1.0 | **Ratified**: 2025-11-15 | **Last Amended**: 2025-11-15
+**Version**: 1.2.0 | **Ratified**: 2025-11-15 | **Last Amended**: 2025-11-15
