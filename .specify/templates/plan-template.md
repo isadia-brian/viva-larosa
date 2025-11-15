@@ -31,7 +31,10 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- [ ] **I. Uncompromising Code Quality**: Does the plan account for adherence to Biome configuration and promote clear, documented code?
+- [ ] **II. Rigorous Testing Standards**: Does the plan include tasks for writing unit/integration tests for all new features?
+- [ ] **III. Consistent User Experience**: Does the plan prioritize the use of reusable components and alignment with the existing design system?
+- [ ] **IV. High-Performance by Default**: Does the plan include considerations for bundle size, performance optimization, and regression testing?
 
 ## Project Structure
 
